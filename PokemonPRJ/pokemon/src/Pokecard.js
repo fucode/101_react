@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Pokecard.css';
 const POKE_API = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/'
 
-
+//a way to get 00 added to the number i.e. 4 to 004
 let padToThree = (number) => (number <= 999 ? `00${number}`.slice(-3) : number);
 
 
@@ -22,3 +22,4 @@ class Pokecard extends Component {
 }
 
 export default Pokecard;
+
