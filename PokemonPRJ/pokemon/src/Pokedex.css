@@ -1,10 +1,9 @@
-.Pokedex-cards {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.Pokedex {
+	text-align: center;
 }
-
-.Pokedex-title {
-  text-align: center;
-  font-size: 3rem;
+.Pokedex-cards {
+	display: flex;
+	justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 1rem;
 }
